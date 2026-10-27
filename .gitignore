@@ -2,3 +2,8 @@
 azs-launcher.exe
 azs_mod.dll
 azs-mod.toml.example
+azs-mod-version.txt
+azs-mod.log
+game-path.txt
+AddOns/
+azs-launcher.exe.old
