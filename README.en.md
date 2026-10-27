@@ -40,7 +40,8 @@ English otherwise.
    mod uses built-in defaults).
 3. **Run `azs-launcher.exe` to start the game** (do not launch the game exe
    directly — the mod is injected by the launcher). You pick the game path on
-   first run; it is remembered afterwards.
+   first run; it is remembered afterwards. The in-game panel (AddOns) is
+   installed into the game folder by the launcher automatically.
 
 ## In-game panel
 
