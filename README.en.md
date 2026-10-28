@@ -25,14 +25,14 @@ become — level 99, 51 talent points, fixed quality and cooldowns. This
 | Cooldown display | Upgrade cards show each spell's cooldown on the first line | — | on/off |
 | Battle speed | Speeds up in-run game time at the selected tier (movement, cooldowns, spawns); the top bar switches tiers instantly and resets to x1 in the lobby | 1x | default 1/2/5/10, four tiers configurable 0.1–20 |
 | In-game settings panel | MODS → AZS; "Apply" takes effect immediately, writes back the config, and closes the panel | — | — |
-| Launcher self-update | Checks for a new release on startup and applies it (failures never block launch); `--no-update` skips | — | — |
+| Launcher self-update | Checks for a new release on startup and applies it, trying gh-proxy → ghfast → ghproxy → direct download (failures never block launch); `--no-update` skips | — | — |
 
 The panel follows the game's interface language: Chinese for zh locales,
 English otherwise.
 
 ## Installation
 
-1. Download `azs-mod-v0.3.0.zip` from the **Releases** page and extract it
+1. Download `azs-mod-v0.3.1.zip` from the **Releases** page and extract it
    anywhere:
    - `azs-launcher.exe` (the launcher, which injects the mod)
    - `azs_mod.dll` (the mod itself)
