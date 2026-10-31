@@ -24,15 +24,18 @@ become — level 99, 51 talent points, fixed quality and cooldowns. This
 | Lucky quality floor | With enough luck, low qualities stop dropping | — | 60/90/140%, can disable |
 | Cooldown display | Upgrade cards show each spell's cooldown on the first line | — | on/off |
 | Battle speed | Speeds up in-run game time at the selected tier (movement, cooldowns, spawns); the top bar switches tiers instantly and resets to x1 in the lobby | 1x | default 1/2/5/10, four tiers configurable 0.1–20 |
+| Auto farm | Auto-seeks BOSS lairs and chests, orbits the lair on arrival, pathing with wall-hug avoidance (stuck detection); auto start-of-run nudge | manual | master switch + chest/orbit/avoidance sub-switches |
+| Auto card pick | Auto-picks the rarest upgrade card, announces name & rarity in chat; skips rings/trinkets that would replace the worn amulet | manual | on/off |
+| Minimap guard timer | Skull icons mark occupied lairs | — | on/off |
 | In-game settings panel | MODS → AZS; "Apply" takes effect immediately, writes back the config, and closes the panel | — | — |
-| Launcher self-update | Checks for a new release on startup and applies it, trying gh-proxy → ghfast → ghproxy → direct download (failures never block launch); `--no-update` skips | — | — |
+| Launcher self-update | Checks for a new release on startup and applies it, trying the self-hosted proxy → gh-proxy → ghfast → direct download (failures never block launch); `--no-update` skips | — | — |
 
 The panel follows the game's interface language: Chinese for zh locales,
 English otherwise.
 
 ## Installation
 
-1. Download `azs-mod-v0.3.1.zip` from the **Releases** page and extract it
+1. Download `azs-mod-v0.3.4.zip` from the **Releases** page and extract it
    anywhere:
    - `azs-launcher.exe` (the launcher, which injects the mod)
    - `azs_mod.dll` (the mod itself)
@@ -47,8 +50,8 @@ English otherwise.
 ## In-game panel
 
 Open **MODS → AZS** on the right side of the screen. Common adjustments
-(caps, luck thresholds, cooldown toggle, battle-speed switch and the four
-tiers) need no file editing: press "Apply" and the change takes effect
+(caps, luck thresholds, cooldown toggle, battle speed, auto-farm and card-pick
+switches) need no file editing: press "Apply" and the change takes effect
 immediately, writes back to `azs-mod.toml`, and the panel closes.
 
 With battle speed enabled, a bar appears at the top of the screen (slightly
