@@ -35,7 +35,7 @@ English otherwise.
 
 ## Installation
 
-1. Download `azs-mod-v0.4.0.zip` from the **Releases** page and extract it
+1. Download `azs-mod-v0.4.1.zip` from the **Releases** page and extract it
    anywhere:
    - `azs-launcher.exe` (the launcher, which injects the mod)
    - `azs_mod.dll` (the mod itself)

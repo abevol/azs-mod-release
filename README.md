@@ -29,7 +29,7 @@
 
 ## 安装
 
-1. 到 **Releases** 页下载 `azs-mod-v0.4.0.zip`，解压到**任意目录**：
+1. 到 **Releases** 页下载 `azs-mod-v0.4.1.zip`，解压到**任意目录**：
    - `azs-launcher.exe`（启动器，负责注入）
    - `azs_mod.dll`（模组本体）
    - `azs-mod.toml.example`（配置模板）
